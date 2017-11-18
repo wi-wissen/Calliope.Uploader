@@ -6,6 +6,8 @@ Tired of drag and dropping .hex files to your [Calliope mini](https://calliope.c
 
 **Project is forked from [Microsoft TouchDevelop](https://github.com/Microsoft/TouchDevelop/tree/master/microbit/loader).** 
 
+## [Download EXE](https://github.com/wi-wissen/Calliope.Uploader/raw/master/Microbit.Uploader/bin/Debug/Calliope.Uploader.exe)
+
 ## [Documentation](https://www.touchdevelop.com/microbituploader)
 
 ## Notes
