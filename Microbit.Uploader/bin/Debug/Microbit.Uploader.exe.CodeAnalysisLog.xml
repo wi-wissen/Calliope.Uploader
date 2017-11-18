@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="J:\Projekte\microbit\loader\Microbit.Uploader\bin\Debug\Microbit.Uploader.exe">
+   <Modules>
+    <Module Name="microbit.uploader.exe">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Signieren Sie "'Microbit.Uploader.exe'" mit einem Schlüssel mit starkem Namen.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Microsoft.MicroBit">
+       <Types>
+        <Type Name="LicenseDialog" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="LicenseDialog.Designer.cs" Line="54">Die Methode "'LicenseDialog.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Accept".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="LicenseDialog.Designer.cs" Line="86">Die Methode "'LicenseDialog.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Calliope mini uploader Terms Of Use".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="LicenseDialog.Designer.cs" Line="66">Die Methode "'LicenseDialog.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Exit".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MainForm" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.cs" Line="22">Die Methode "'MainForm.MainForm()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "v, .".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#handleFile(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="infoName" TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.cs" Line="109">"'MainForm.handleFile(string)'" deklariert die Variable "'infoName'" vom Typ "'string'", die nie verwendet oder lediglich zugewiesen wird. Verwenden Sie diese Variable, oder entfernen Sie sie.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.Designer.cs" Line="95">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Automatischer Upload von .hex Dateien.".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.Designer.cs" Line="128">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Calliope mini uploader".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.Designer.cs" Line="51">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "loading...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.Designer.cs" Line="106">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "settings".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.Designer.cs" Line="83">Die Methode "'MainForm.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "v0.6".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SettingsLabel_LinkClicked(System.Object,System.Windows.Forms.LinkLabelLinkClickedEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Objekte verwerfen, bevor Bereich verloren geht" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="MainForm.cs" Line="248">Rufen Sie in der 'MainForm.SettingsLabel_LinkClicked(object, LinkLabelLinkClickedEventArgs)'-Methode System.IDisposable.Dispose für das Objekt "'settings'" auf, bevor alle Verweise darauf außerhalb des gültigen Bereichs liegen.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Settings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CustomCopyPath" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Da das Feld "'Settings.CustomCopyPath'" außerhalb des deklarierenden Typs sichtbar ist, ändern Sie dessen Zugriff in "private", und fügen Sie eine Eigenschaft hinzu, die den gleichen Zugriff wie derzeit das Feld besitzt, um Zugriff auf diese bereitzustellen.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="Settings.Designer.cs" Line="50">Die Methode "'Settings.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Custom Path".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="Settings.Designer.cs" Line="64">Die Methode "'Settings.InitializeComponent()'" übergibt eine Literalzeichenfolge als Parameter "value" eines Aufrufs von 'Control.Text.set(string)'. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: "Settings".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#label1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2017-11-17 20:55:06Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="J:\Projekte\microbit\loader\Microbit.Uploader" File="Settings.cs" Line="28">'Settings.label1_Click(object, EventArgs)' scheint keine öffentlichen oder geschützten Upstreamaufrufer aufzuweisen.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblys müssen gültige starke Namen aufweisen</Name>
+   <Description>Entweder verfügt die Assembly nicht über einen starken Namen, über einen ungültigen Namen, oder der starke Name ist nur aufgrund der Computerkonfiguration gültig. In diesem Zustand sollte die Assembly nicht bereitgestellt werden. Die häufigsten Ursachen hierfür sind: 1) Der Inhalt der Assembly wurde nach der Signierung geändert. 2) Bei der Signierung ist ein Fehler aufgetreten. 3) Die Assembly wurde verzögert signiert. 4) Es war ein Registrierungsschlüssel vorhanden, der eine erfolgreiche Überprüfung ermöglichte, die andernfalls nicht möglich gewesen wäre.</Description>
+   <Resolution Name="NoStrongName">Signieren Sie "{0}" mit einem Schlüssel mit starkem Namen.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Nicht aufgerufenen privaten Code vermeiden</Name>
+   <Description>Es ist nicht aufgerufener Code vorhanden, der nicht extern sichtbar und kein bekannter Laufzeit-Einstiegspunkt ist. Wenn diese Verletzung einen Fehler auslöst, senden Sie einen Problembericht an das Visual Studio-Codeanalyse-Team.</Description>
+   <Resolution Name="Default">{0} scheint keine öffentlichen oder geschützten Upstreamaufrufer aufzuweisen.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Sichtbare Instanzfelder nicht deklarieren</Name>
+   <Description>Instanzenfelder, die außerhalb des Typs sichtbar sind, von dem sie deklariert werden, schränken Ihre Möglichkeiten ein, die Implementierungsdetails für die betreffenden Datenelemente zu ändern. Verwenden Sie stattdessen Eigenschaften. Durch diese wird die Verwendbarkeit oder Leistung nicht beeinträchtigt, und sie bieten dahingehend Flexibilität, dass sie die Implementierungsdetails der zugrunde liegenden Daten verbergen.</Description>
+   <Resolution Name="Default">Da das Feld "{0}" außerhalb des deklarierenden Typs sichtbar ist, ändern Sie dessen Zugriff in "private", und fügen Sie eine Eigenschaft hinzu, die den gleichen Zugriff wie derzeit das Feld besitzt, um Zugriff auf diese bereitzustellen.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literale nicht als lokalisierte Parameter übergeben" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Literale nicht als lokalisierte Parameter übergeben</Name>
+   <Description>Literalzeichenfolgen, die in Quellcode eingebettet sind, sind schwer zu lokalisieren. Übergeben Sie keine Literalzeichenfolgen als Argumente in Fällen, in denen im Allgemeinen eine lokalisierte Zeichenfolge erwartet wird.</Description>
+   <Resolution Name="KnownValue">Die Methode "{0}" übergibt eine Literalzeichenfolge als Parameter "{1}" eines Aufrufs von {2}. Rufen Sie die folgende(n) Zeichenfolge(n) stattdessen von einer Ressourcentabelle ab: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="Objekte verwerfen, bevor Bereich verloren geht" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Objekte verwerfen, bevor Bereich verloren geht</Name>
+   <Description>Wenn ein verwerfbares Objekt nicht explizit verworfen wird, bevor alle Verweise darauf außerhalb des gültigen Bereichs liegen, wird das Objekt zu einer unbestimmten Zeit verworfen, wenn der Garbage Collector den Finalizer des Objekts ausführt. Da möglicherweise ein Ausnahmeereignis auftritt, durch das die Ausführung des Finalizers des Objekts verhindert wird, muss das Objekt stattdessen explizit verworfen werden.</Description>
+   <Resolution Name="NonExceptionEdge">Rufen Sie in der {0}-Methode System.IDisposable.Dispose für das Objekt "{1}" auf, bevor alle Verweise darauf außerhalb des gültigen Bereichs liegen.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="RemoveUnusedLocals" Category="Microsoft.Performance" CheckId="CA1804">
+   <Name>Nicht verwendete lokale Variablen entfernen</Name>
+   <Description>Entfernen Sie lokale Variablen, die nicht verwendet werden oder die nur Methodenimplementierungen zugewiesen sind.</Description>
+   <Resolution Name="Default">"{0}" deklariert die Variable "{1}" vom Typ "{2}", die nie verwendet oder lediglich zugewiesen wird. Verwenden Sie diese Variable, oder entfernen Sie sie.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182278.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Kategorie</String>
+  <String Key="Certainty">Sicherheit</String>
+  <String Key="CollapseAll">Alle zuklappen</String>
+  <String Key="CheckId">Prüf-ID</String>
+  <String Key="Error">Fehler</String>
+  <String Key="Errors">Fehler</String>
+  <String Key="ExpandAll">Alle aufklappen</String>
+  <String Key="Help">Hilfe</String>
+  <String Key="Line">Zeile</String>
+  <String Key="Messages">Meldung(en)</String>
+  <String Key="LocationNotStoredInPdb">[Nicht in PDB gespeicherter Speicherort]</String>
+  <String Key="Project">Projekt</String>
+  <String Key="Resolution">Auflösung</String>
+  <String Key="Rule">Regel</String>
+  <String Key="RuleFile">Regeldatei</String>
+  <String Key="RuleDescription">Regelbeschreibung</String>
+  <String Key="Source">Quelle</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Ziel</String>
+  <String Key="Warning">Warnung</String>
+  <String Key="Warnings">Warnung(en)</String>
+  <String Key="ReportTitle">Codeanalysebericht</String>
+ </Localized>
+</FxCopReport>
